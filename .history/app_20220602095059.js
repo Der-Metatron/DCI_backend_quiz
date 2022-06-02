@@ -5,7 +5,7 @@ const { connect } = require("mongoose");
 
 const MongoClient = mongodb.MongoClient;
 
-const connectionString = "mongodb://localhost:27017/";
+const connectionString = "mongodb://localhost:27017/apifragen";
 
 MongoClient.connect(
   connectionString,

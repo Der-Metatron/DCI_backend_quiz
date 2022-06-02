@@ -2,10 +2,8 @@
   "name": "fragenapp",
   "version": "1.0.0",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sprotte",
   "license": "ISC",

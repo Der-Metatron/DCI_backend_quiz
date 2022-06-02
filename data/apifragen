@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b18e"
+  },
+  "question": "Was ist React ?",
+  "optionA": "Ist eine Stadt",
+  "optionB": "Ist ein Auto",
+  "optionC": "React ist ein JavaScript-Framework",
+  "answer": "React ist ein JavaScript-Framework"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b18f"
+  },
+  "question": "Was ist React-Dom ?",
+  "optionA": "Ist ein Framework",
+  "optionB": "vergleicht das vorherige und jetztige Element und dessen Kindelemente miteinander",
+  "optionC": "Ist eine Kirche",
+  "answer": "vergleicht das vorherige und jetztige Element und dessen Kindelemente miteinander"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b190"
+  },
+  "question": "Was ist Javascript ?",
+  "optionA": "Ist eine Scriptsprache",
+  "optionB": "Ist ein Pferd",
+  "optionC": "Ist ein tool von erstellen von webseiten",
+  "answer": "Ist eine Scriptsprache"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b191"
+  },
+  "question": "Was sind Hooks ?",
+  "optionA": "damit lassen sich state und andere react future benutzen",
+  "optionB": "eine sprache zum erstellen einer datenbankstrukturen",
+  "optionC": "ein programm zum erstellen von Designe",
+  "answer": "damit lassen sich state und andere react future benutzen"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b192"
+  },
+  "question": "Was ist HTML ?",
+  "optionA": "Ist eine Sekte",
+  "optionB": "Ist eine sprache zum designen von webseiten",
+  "optionC": "Hypertext Markup Language",
+  "answer": "Hypertext Markup Language"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b193"
+  },
+  "question": "Was ist Css ?",
+  "optionA": "Ermöglicht das designe von elektronischen Elementen",
+  "optionB": "programm zum malen",
+  "optionC": "eine sprache zum erstellen von Tabellen",
+  "answer": "Ermöglicht das designe von elektronischen Elementen"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b194"
+  },
+  "question": "Was ist MongoDb ?",
+  "optionA": "Ist ein NoSQL Datenbankmanagementsystem",
+  "optionB": "Ist ein SQL Datenbankmanagementsystem",
+  "optionC": "Ist eine Programiersprache",
+  "answer": "Ist ein NoSQL Datenbankmanagementsystem"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b195"
+  },
+  "question": "Was ist LowDB ?",
+  "optionA": "Ist eine Große Datenbank",
+  "optionB": "Ist ein Tool zum erstellen von Programmen",
+  "optionC": "Ist eine leichtgewichtige und flexible Datenbank",
+  "answer": "Ist eine leichtgewichtige und flexible Datenbank"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b196"
+  },
+  "question": "Was ist SQL ?",
+  "optionA": "Ein Framework",
+  "optionB": "Datenbanksprache zur Erstellung von Datenbankstructuren",
+  "optionC": "Ein Software Queery",
+  "answer": "Datenbanksprache zur Erstellung von Datenbankstructuren"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b197"
+  },
+  "question": "Was ist Bootstrap ?",
+  "optionA": "Ist eine Datenbank",
+  "optionB": "Ist eine Programmier Sprache",
+  "optionC": "ein quelloffenes Frontend-Web-Framework zur Erstellung von Webseiten",
+  "answer": "ein quelloffenes Frontend-Web-Framework zur Erstellung von Webseiten"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b198"
+  },
+  "question": "Was ist SASS ?",
+  "optionA": "Short await script",
+  "optionB": "ist eine Stylesheet-Sprache",
+  "optionC": "Eine Krankheit aus Süd Amerika",
+  "answer": "ist eine Stylesheet-Sprache"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b199"
+  },
+  "question": "Wählen Sie das richtige HTML-Tag für die größte Überschrift ?",
+  "optionA": "Ist sizze",
+  "optionB": "Ist h3",
+  "optionC": "Ist h1",
+  "answer": "Ist h1"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b19a"
+  },
+  "question": "Was ist eine API ?",
+  "optionA": "Android-Program-It",
+  "optionB": "Ein Browser",
+  "optionC": "Eine Schnittstelle",
+  "answer": "Eine Schnittstelle"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b19b"
+  },
+  "question": "Was ist Express ?",
+  "optionA": "Ein schnell Zug",
+  "optionB": "Node.js-Framework",
+  "optionC": "Zu stellung von Daten",
+  "answer": "Node.js-Framework"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b19c"
+  },
+  "question": "Was ist nodemon ?",
+  "optionA": "CLI-Dienstprogramm",
+  "optionB": "Ein Chat Liste im Internet",
+  "optionC": "Ein Mond im äusseren Sonnensystem",
+  "answer": "CLI-Dienstprogramm"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b19d"
+  },
+  "question": "Was ist Postman ?",
+  "optionA": "Werkzeug zum Testen von APIs",
+  "optionB": "Ein Postbote",
+  "optionC": "Ein Film über Web-Entwickler",
+  "answer": "Werkzeug zum Testen von APIs"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b19e"
+  },
+  "question": "Was ist eine API ?",
+  "optionA": "Android-Program-It",
+  "optionB": "Ein Browser",
+  "optionC": "Eine Schnittstelle",
+  "answer": "Eine Schnittstelle"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b19f"
+  },
+  "question": "Was ist das richtige HTML-Tag zum Einfügen eines Zeilenumbruchs?",
+  "optionA": "Ist Lb",
+  "optionB": "Ist br",
+  "optionC": "Break",
+  "answer": "Ist br"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b1a0"
+  },
+  "question": "Was ist Webhosting?",
+  "optionA": "Ein Domänenname",
+  "optionB": "Etwas, das Menschen mit einem Browser anzeigen ",
+  "optionC": "Online-Speicherplatz für Website und Daten",
+  "answer": "Online-Speicherplatz für Website und Daten"
+},{
+  "_id": {
+    "$oid": "6297c59f8e34f7f1f673b1a1"
+  },
+  "question": "Was bedeutet frontend ?",
+  "optionA": "Free dot end",
+  "optionB": "Wird als so genannte Präsentationsebene bezeichnet",
+  "optionC": "Ein Kriegszustand",
+  "answer": "Wird als so genannte Präsentationsebene bezeichnet"
+}]

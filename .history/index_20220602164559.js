@@ -10,7 +10,7 @@ const mongo_connect = process.env.MONGO_CONNECTION;
 
 // Express
 
-/*  app.use(express.json());*/
+app.use(express.json());
 app.use(cors());
 
 /*  const { Schema } = mongoose;
@@ -37,7 +37,7 @@ const Question = mongoose.model("Question", questionSchema, "questions");
 
 // Routen
 
-app.use("/apifragen/questions", async (req, res) => {
+app.use("/apifragen/api", async (req, res) => {
   try {
     /*    await mongoose.connect(mongo_connect);*/
     const questions = await Question.find().exec();

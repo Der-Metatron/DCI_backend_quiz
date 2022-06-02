@@ -32,12 +32,13 @@ const questionSchema = new mongoose.Schema({
   optionC: String,
   answer: String,
 });
+console.log(questionSchema);
 
 const Question = mongoose.model("Question", questionSchema, "questions");
 
 // Routen
 
-app.use("/apifragen/questions", async (req, res) => {
+app.use("/apifragen", async (req, res) => {
   try {
     /*    await mongoose.connect(mongo_connect);*/
     const questions = await Question.find().exec();
