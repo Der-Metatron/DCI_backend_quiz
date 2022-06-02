@@ -1,0 +1,262 @@
+db.apifragen.insertOne(
+    {
+    question: "Was ist React ?",
+    optionA: "Ist eine Stadt",
+    optionB: "Ist ein Auto",
+    optionC: "React ist ein JavaScript-Framework",
+    answer: "React ist ein JavaScript-Framework"
+}
+)
+db.apifragen.insertMany(
+[
+  {
+    question: "Was ist React ?",
+    optionA: "Ist eine Stadt",
+    optionB: "Ist ein Auto",
+    optionC: "React ist ein JavaScript-Framework",
+    answer: "React ist ein JavaScript-Framework"
+  },
+
+  {
+    question: "Was ist React-Dom ?",
+    optionA: "Ist ein Framework",
+    optionB: "vergleicht das vorherige und jetztige Element und dessen Kindelemente miteinander",
+    optionC: "Ist eine Kirche",
+    answer: "vergleicht das vorherige und jetztige Element und dessen Kindelemente miteinander"
+  },
+
+  {
+    question: "Was ist Javascript ?",
+    optionA: "Ist eine Scriptsprache",
+    optionB: "Ist ein Pferd",
+    optionC: "Ist ein tool von erstellen von webseiten",
+    answer: "Ist eine Scriptsprache"
+  },
+
+  {
+    question: "Was sind Hooks ?",
+    optionA: "damit lassen sich state und andere react future benutzen",
+    optionB: "eine sprache zum erstellen einer datenbankstrukturen",
+    optionC: "ein programm zum erstellen von Designe",
+    answer: "damit lassen sich state und andere react future benutzen"
+  },
+
+  {
+    question: "Was ist HTML ?",
+    optionA: "Ist eine Sekte",
+    optionB: "Ist eine sprache zum designen von webseiten",
+    optionC: "Hypertext Markup Language",
+    answer: "Hypertext Markup Language"
+  },
+
+  {
+    question: "Was ist Css ?",
+    optionA: "Ermöglicht das designe von elektronischen Elementen",
+    optionB: "programm zum malen",
+    optionC: "eine sprache zum erstellen von Tabellen",
+    answer: "Ermöglicht das designe von elektronischen Elementen"
+  },
+
+  {
+    question: "Was ist MongoDb ?",
+    optionA: "Ist ein NoSQL Datenbankmanagementsystem",
+    optionB: "Ist ein SQL Datenbankmanagementsystem",
+    optionC: "Ist eine Programiersprache",
+    answer: "Ist ein NoSQL Datenbankmanagementsystem"
+  },
+
+  {
+    question: "Was ist LowDB ?",
+    optionA: "Ist eine Große Datenbank",
+    optionB: "Ist ein Tool zum erstellen von Programmen",
+    optionC: "Ist eine leichtgewichtige und flexible Datenbank",
+    answer: "Ist eine leichtgewichtige und flexible Datenbank"
+  },
+
+  {
+    question: "Was ist SQL ?",
+    optionA: "Ein Framework",
+    optionB: "Datenbanksprache zur Erstellung von Datenbankstructuren",
+    optionC: "Ein Software Queery",
+    answer: "Datenbanksprache zur Erstellung von Datenbankstructuren"
+  },
+
+  {
+    question: "Was ist Bootstrap ?",
+    optionA: "Ist eine Datenbank",
+    optionB: "Ist eine Programmier Sprache",
+    optionC: "ein quelloffenes Frontend-Web-Framework zur Erstellung von Webseiten",
+    answer: "ein quelloffenes Frontend-Web-Framework zur Erstellung von Webseiten"
+  },
+
+  {
+    question: "Was ist SASS ?",
+    optionA: "Short await script",
+    optionB: "ist eine Stylesheet-Sprache",
+    optionC: "Eine Krankheit aus Süd Amerika",
+    answer: "ist eine Stylesheet-Sprache"
+  },
+
+  {
+    question: "Wählen Sie das richtige HTML-Tag für die größte Überschrift ?",
+    optionA: "Ist sizze",
+    optionB: "Ist h3",
+    optionC: "Ist h1",
+    answer: "Ist h1"
+  },
+
+  {
+    question: "Was ist eine API ?",
+    optionA: "Android-Program-It",
+    optionB: "Ein Browser",
+    optionC: "Eine Schnittstelle",
+    answer: "Eine Schnittstelle"
+  },
+
+  {
+    question: "Was ist Express ?",
+    optionA: "Ein schnell Zug",
+    optionB: "Node.js-Framework",
+    optionC: "Zu stellung von Daten",
+    answer: "Node.js-Framework"
+  },
+
+  {
+    question: "Was ist nodemon ?",
+    optionA: "CLI-Dienstprogramm",
+    optionB: "Ein Chat Liste im Internet",
+    optionC: "Ein Mond im äusseren Sonnensystem",
+    answer: "CLI-Dienstprogramm"
+  },
+  {
+    question: "Was ist Postman ?",
+    optionA: "Werkzeug zum Testen von APIs",
+    optionB: "Ein Postbote",
+    optionC: "Ein Film über Web-Entwickler",
+    answer: "Werkzeug zum Testen von APIs"
+  },
+
+  {
+    question: "Was ist eine API ?",
+    optionA: "Android-Program-It",
+    optionB: "Ein Browser",
+    optionC: "Eine Schnittstelle",
+    answer: "Eine Schnittstelle"
+  },
+
+  {
+    question: "Was ist das richtige HTML-Tag zum Einfügen eines Zeilenumbruchs?",
+    optionA: "Ist Lb",
+    optionB: "Ist br",
+    optionC: "Break",
+    answer: "Ist br"
+  },
+
+  {
+    question: "Was ist Webhosting?",
+    optionA: "Ein Domänenname",
+    optionB: "Etwas, das Menschen mit einem Browser anzeigen ",
+    optionC: "Online-Speicherplatz für Website und Daten",
+    answer: "Online-Speicherplatz für Website und Daten"
+  },
+
+  {
+    question: "Was bedeutet frontend ?",
+    optionA: "Free dot end",
+    optionB: "Wird als so genannte Präsentationsebene bezeichnet",
+    optionC: "Ein Kriegszustand",
+    answer: "Wird als so genannte Präsentationsebene bezeichnet"
+  }
+]
+)    
+
+// Alle Datenbanken anzeigen
+show dbs
+// Aktualle Datenbank anzeigen
+db
+// Datenbank verwenden/anlegen
+use tutorial
+// Datenbank löschen
+db.dropDatabase('apifragen')
+// Neue Collection anlegen
+db.createCollection('apifragen')
+// Alle Collections anzeigen
+show collections
+// Collection löschen
+db.apifragen.drop()
+// Den Terminal Bildschierm leeren
+cls
+// Alle Fragen aus der Collection Anzeigen lassen
+db.apifragen.find();
+// Fragen formatieren
+db.apifragen.find().pretty();
+// Ergebnisse Filtern
+db.apifragen.find({optionC: "React"})
+// Ergebnisse Zählen
+db.apifragen.find().count()
+db.apifragen.countDocuments()
+// Ergebnisse Limiteren
+db.apifragen.find().limit(3)
+// For Each Schleife
+db.apifragen.find().forEach(function(doc){
+    print("Produkt:" + doc.question)
+})
+// Ergebnisse nach Größer/Kleiner filtern
+db.apifragen.find({ price: { $gt: 1 } })
+db.apifragen.find({ price: { $gte: 0.99 } })
+db.apifragen.find({ price: { $lt: 0.99 } })
+db.apifragen.find({ price: { $lte: 0.99 } })
+// Feld indexieren
+db.apifragen.createIndex(
+  { name: 'text' }, 
+  { default_language: "german" }
+)
+// Alle Indexes anzeigen
+db.apifragen.getIndexes()
+// Index löschen
+db.apifragen.dropIndex('name_text')
+
+// Textsuche
+db.apifragen.find({
+  $text: {
+    $search: "React"
+  }
+})
+// Nur ein Ergebnis
+db.apifragen.findOne({ category: 'React' })
+// Alle Ergebnisse mit bestimmten Feldern
+db.apifragen.find({}, {
+  optionA: 1,
+  optionB: 1
+})
+// Alle Ergebnisse ohne bestimmte Felder
+db.apifragen.find({}, {
+  ratings: 0,
+  date: 0
+})
+// Ein Document aktualisieren/hinzufügen
+db.apifragen.updateOne({ question: 'Was ist Gurke?' },
+{
+  $set: { 
+    price: 0.5 ,
+    category: 'Gemüse',
+    views: 0
+  }
+},
+{
+  upsert: true
+})
+
+// Viele Documents aktualisieren
+db.apifragen.updateMany({ category: "qustions" },
+{
+  $set: { 
+    price: 0.2 
+  }
+})
+
+
+
+
+
+

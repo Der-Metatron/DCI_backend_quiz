@@ -1,0 +1,28 @@
+{
+  "name": "fragenapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sprotte",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Der-Metatron/DCI_backend_quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Der-Metatron/DCI_backend_quiz/issues"
+  },
+  "homepage": "https://github.com/Der-Metatron/DCI_backend_quiz#readme",
+  "description": ""
+}
